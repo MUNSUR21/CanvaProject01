@@ -89,6 +89,13 @@ nav a {
     height: 30px;
 }
 
+.fa-magnifying-glass {
+    color: var(--second--color);
+}
+
+.fa-cart-shopping {
+    color: var(--second--color);
+}
 
 .carticon p {
     position: absolute;
@@ -169,7 +176,7 @@ nav a {
     align-items: center;
     justify-content: center;
     height: 60px;
-    width: 45%;
+    width: 40%;
     padding: 10px 15px;
     background-color: var(--main--color);
     border-radius: 5px;
@@ -180,14 +187,226 @@ nav a {
     align-items: center;
     justify-content: center;
     height: 60px;
-    width: 45%;
+    width: 40%;
     padding: 10px 15px;
     background-color: var(--second--color);
     border-radius: 5px;
+}
+
+.fa-circle-play {
+    font-size: 2.5rem;
+    width: 10%;
 }
 
 .herobuttonbox {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Checkmark {
+    display: flex;
+    margin: 50px 0 0 0;
+}
+
+.Checkmark p {
+    font-size: 1rem;
+    margin: 0 10px;
+
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-star {
+    color: orange;
+}
+
+/* ---------------------------------Review and project Section--------------------------------- */
+
+.CircleBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CircleBox p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 50px 0 0 0;
+    height: 40px;
+    width: 800px;
+    border: 1px solid var(--second--color);
+}
+
+.fa-circle-exclamation {
+    color: var(--second--color);
+    margin: 0 10px 0 0;
+}
+
+.Trustedby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0 0 0;
+}
+
+.Trustedby p {
+    font-size: 1.5rem;
+}
+
+.Trustedby p span {
+    color: var(--main--color);
+    font-weight: 600;
+}
+
+.fa-plus {
+    color: var(--main--color);
+    font-size: 1rem;
+}
+
+.reviewcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 9%;
+    margin-top: 80px;
+}
+
+.reviewcolumn1 {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reviewcolumn1box {
+    display: flex;
+}
+
+.Reviewcolumn1box p {
+    background-color: var(--Bg-lightDeep-color);
+    padding: 15px;
+    width: 75%;
+    position: relative;
+    align-self: flex-end;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Reviewcolumn1box p::before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    top: 0;
+    right: -20px;
+    clip-path: polygon(00% 0%, 100% 0, 0% 100%, 0 50%);
+    background-color: var(--Bg-lightDeep-color);
+
+
+}
+
+.Nameandstar {
+    margin-left: 40px;
+    width: 25%;
+}
+
+.Nameandstar h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.Nameandstar h4 {
+    font-size: .85rem;
+    font-weight: 300;
+}
+
+
+/* ---------------------what we have on this project--------------- */
+
+.whatwehave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.whatrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whatrow h3 {
+    font-size: 2.5rem;   
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    margin: 0 35px;
+}
+
+.row p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewsectioicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+
+.iconsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsection img {
+    height: 18px;
+    margin: 0 15px;
+}
+
+.Oldversion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.checkoldversion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkoldversion p {
+    font-size: .85rem;
+    margin: 0 10px;
+}
+
+.checkoldversion a {
+    font-size: .85rem;
+    margin: 0 10px;
 }
