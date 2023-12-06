@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg--color: #ffff;
+    --main--color: #1A73E8;
+    --second--color: #212529;
+    --Bg-lightDeep-color: #E9ECEF;
+    --Bg-light-color: #F8F9FA;
+}
+
+/* ---------header Section----------- */
+.header-notification {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: var(--main--color);
+    color: var(--bg--color);
+    justify-content: center;
+    align-items: center;
+}
+
+.header-notification p {
+    font-size: .85rem;
+}
+
+.header-notification a {
+    text-decoration: none;
+    color: var(--second--color);
+    height: 2rem;
+    width: 10rem;
+    background-color: var(--bg--color);
+    font-size: .85rem;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .25rem;
+    margin-left: 2rem;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    margin: 0 9%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+
+.navbar {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--second--color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.cart {
+    display: flex;
+    width: 300px;
+    justify-content: end;
+    align-items: center;
+}
+
+.cart a{
+    margin: 0 10px;
+}
+
+.carticon {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50px;
+    height: 30px;
+}
+
+
+.carticon p {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--main--color);
+    display: flex;
+    align-items: center;
+    font-size: .65rem;
+    justify-content: center;
+    color: var(--bg--color);
+    margin-top: -20px;
+}
+
+.carticon a {
+    position: relative;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.GetButton {
+    background-color: var(--main--color);
+    color: var(--bg--color);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Bg-light-color);
+}
+
+.Containerview {
+    align-items: center;
+}
+
+.Containerview p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.Containerview p span {
+    font-weight: 500;
+    color: var(--main--color);
+}
+.Containerview h1 {
+    display: flex;
+    font-size: 3.5rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+.herobutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 25vw;
+}
+
+.herobutton a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--bg--color);
+}
+
+.ViewDemo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 45%;
+    padding: 10px 15px;
+    background-color: var(--main--color);
+    border-radius: 5px;
+}
+
+.StartCreating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 45%;
+    padding: 10px 15px;
+    background-color: var(--second--color);
+    border-radius: 5px;
+}
+
+.herobuttonbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
