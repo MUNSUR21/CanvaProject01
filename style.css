@@ -45,10 +45,19 @@
     margin-left: 2rem;
 }
 
+/* ---------------------header navbar--------------- */
+
+.container0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 9%;
+}
+
 .header {
     display: flex;
     height: 80px;
-    margin: 0 9%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -126,6 +135,8 @@ nav a {
     border-radius: 5px;
     text-decoration: none;
 }
+
+/* ----------------------Hero Section------------ */
 
 .container {
     width: 100%;
@@ -224,6 +235,10 @@ nav a {
 }
 
 /* ---------------------------------Review and project Section--------------------------------- */
+
+.Second-Container {
+    width: 100%;
+}
 
 .CircleBox {
     display: flex;
@@ -342,6 +357,7 @@ nav a {
     align-items: center;
     justify-content: center;
     margin-top: 80px;
+    width: 100%;
 }
 
 .whatrow {
@@ -409,4 +425,114 @@ nav a {
 .checkoldversion a {
     font-size: .85rem;
     margin: 0 10px;
+}
+
+/* ------------------ what we Get?--------------- */
+
+.container3 {
+    height: 150px;
+    width: 100%;
+    border-top: 2px solid var(--Bg-lightDeep-color) ;
+    border-bottom: 2px solid var(--Bg-lightDeep-color) ;
+    background-color: var(--Bg-light-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container3 h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.container3 h1 span {
+    color: var(--main--color);
+}
+
+/* -------------------------Our Package ------------------ */
+
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.Package {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 9%;
+    height: 500px;
+}
+
+.packagecolumn1 {
+    width: 45%;
+}
+
+.column2box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo1 {
+    width: 50%;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.photo1 h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 15%;
+    margin-top: 15px;
+}
+.photo1 p {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 15%;
+    margin-top: 10px;
+
+}
+.photo1 a {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    display: block;
+}
+
+/* -------------------Plus Circle------------- */
+
+.pluscircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px dotted var(--second--color);
+}
+
+.pluscircle i {
+    font-size: 2rem;
+    color: var(--second--color);
 }
